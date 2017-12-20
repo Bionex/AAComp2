@@ -180,7 +180,7 @@ public class Jogo extends JFrame implements ActionListener {
 			pos2 = (int)chars[3] - 49;
 			if(chars.length >= 5){
 				pos2 = ((int)chars[3] - 48) * 10 + (int)chars[4] - 48; 
-				
+				pos2 -= 1;
 			}
 
 			
